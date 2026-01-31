@@ -1,5 +1,34 @@
+🔍 Project Title:
+Vendor Sales & Inventory Intelligence Dashboard (Power BI + Python)
 
-# Vendor Performance Data Analytics
+🧭 Project Overview
+This end-to-end data analytics and visualization project is built to address a key business challenge in supply chain and vendor management — tracking sales performance, purchase efficiency, and inventory optimization for wine and beverage vendors.
+
+The solution integrates multiple real datasets such as vendor invoices, purchase prices, beginning and ending inventories, and generates a unified vendor sales summary analyzed using Python (Pandas, SQL, ML) and Power BI visual dashboards.
+
+The primary goal is to help the business identify:
+
+Top-performing vendors and brands
+
+Cost-saving opportunities from bulk purchases
+
+Low-turnover inventory issues
+
+Contribution of each vendor toward total sales and profit
+
+Purchasing versus sales efficiency and operational bottlenecks
+💡 Business Problem Solved
+Enterprise beverage distributors deal with massive inventory and thousands of vendor relationships. Delayed visibility into purchase costs, price margins, and vendor contribution reduces profitability.
+
+This project builds a centralized analytical layer that answers:
+
+Which vendor contributes most to total sales and profit?
+
+How do purchase prices vary during bulk orders?
+
+Which brands have high margins but low sales traction?
+
+Where do we hold excess or inefficient inventory worth millions?
 
 ## Overview
 This project demonstrates an end‑to‑end data analytics workflow to evaluate vendor performance using SQL, Python, and Power BI.
@@ -31,5 +60,21 @@ The analysis helps decision‑makers:
 - Optimize procurement strategies
 - Improve vendor negotiations
 
-## License
-MIT License
+🧠 Tech Stack & Tools
+Languages: Python (Pandas, NumPy, Matplotlib, Scikit-learn, Seaborn, SQLite)
+
+Data Visualization: Microsoft Power BI (12 visuals with executive bookmarks)
+
+ETL / Data Cleaning: Python (DataFrames + SQL queries)
+
+Storage: Temporary SQLite DB for joins and aggregations
+
+Machine Learning:
+
+Correlation modeling for unit cost vs bulk quantity
+
+Clustering for vendor segmentation (based on margin, turnover, and revenue)
+
+Outlier detection for abnormal pricing
+
+Version Control: Git & GitHub
